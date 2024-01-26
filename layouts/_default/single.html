@@ -72,7 +72,7 @@
                 {{ if .Params.author }}
                 {{ .Params.author | safeHTML }}
                 {{ else }}
-                {{ .Site.Author.name | safeHTML }}
+                {{ .Site.Params.Author.name | safeHTML }}
                 {{ end }}
 
               </p>
